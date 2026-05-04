@@ -1,4 +1,4 @@
-FROM python:3.10-slim
+FROM Python 3.13.1
 COPY . /intro
 WORKDIR /intro
 ENTRYPOINT ["python"]
